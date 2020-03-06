@@ -1,6 +1,0 @@
---cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"
--I D:\2kaadas\2、项目文件\7、蓝牙测试\1、程序\模块测试板\Project\RTE
--I C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
--I C:\Keil_v5\ARM\CMSIS\Include
---pd "__UVISION_VERSION SETA 514" --pd "STM32L151xB SETA 1"
---list .\startup_stm32l1xx_md.lst --xref -o ..\obj\startup_stm32l1xx_md.o --depend ..\obj\startup_stm32l1xx_md.d "startup_stm32l1xx_md.s"

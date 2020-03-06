@@ -1,6 +1,0 @@
--c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Driver -I..\main -I..\STM32L1xx_StdPeriph_Driver\inc -I..\STM32L1xx_StdPeriph_Driver\src -I..\Driver\enc28j60 -I..\Driver\led -I..\Driver\net -I..\Driver\spi -I..\Driver\adc -I..\Driver\temp -I..\Driver\system\delay -I..\Driver\system\sys -I..\Driver
--I D:\2kaadas\2、项目文件\7、蓝牙测试\1、程序\模块测试板\Project\RTE
--I C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include
--I C:\Keil_v5\ARM\CMSIS\Include
--D__UVISION_VERSION="514" -DSTM32L151xB
--o ..\obj\system_stm32l1xx.o --omf_browse ..\obj\system_stm32l1xx.crf --depend ..\obj\system_stm32l1xx.d "..\main\system_stm32l1xx.c"
