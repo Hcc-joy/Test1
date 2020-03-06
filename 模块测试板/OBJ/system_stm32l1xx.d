@@ -1,0 +1,9 @@
+..\obj\system_stm32l1xx.o: ..\main\system_stm32l1xx.c
+..\obj\system_stm32l1xx.o: ..\main\stm32l1xx.h
+..\obj\system_stm32l1xx.o: ..\main\core_cm4.h
+..\obj\system_stm32l1xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\system_stm32l1xx.o: ..\main\core_cmInstr.h
+..\obj\system_stm32l1xx.o: ..\main\core_cmFunc.h
+..\obj\system_stm32l1xx.o: ..\main\core_cm4_simd.h
+..\obj\system_stm32l1xx.o: C:\Keil_v5\ARM\PACK\Keil\STM32L1xx_DFP\1.2.0\Device\Include\system_stm32l1xx.h
+..\obj\system_stm32l1xx.o: ..\STM32L1xx_StdPeriph_Driver\inc\stm32l1xx_conf.h
